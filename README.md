@@ -2,13 +2,22 @@
 Project from Getting and Cleaning Data course
 
 #What does run_analysis actually do?
-  a) reads files from the Smartphone Dataset and creates tables.
-  b) uses tables to assign names to columns of measurements and identify ID numbers to their 
-     corresponding physical activity.
-  c) merges training and test measurement sets into a master set.
-  d) creates a subset of the master set that contains only the mean and standard devation of each measurement.
-  e) reshapes the subset to create a tidy data set that contains the average mean and average standard deviation
-     of each variable for each subject and physical activity performed.
+The run_analysis script uses the plyr, plyr, and reshape2 packages to perform the following functions:
+
+    a) reads files from the Smartphone Dataset and creates tables.
+    b) uses tables to assign names to columns of measurements and identify ID numbers to their 
+       corresponding physical activity.
+    c) merges training and test measurement sets into a master set.
+    d) creates a subset of the master set that contains only the mean and standard devation of each measurement.
+    e) reshapes the subset to create a tidy data set that contains the average mean and average standard deviation
+       of each variable for each subject and physical activity performed.
+
+run_analysis WILL NOT DO the following:
+
+    -Install the required packages needed to function (install.packages())
+    -Call the required packages (library())
+    -Download any files to your computer (download.file())
+    -Unzip the dataset
 
 The output of run_analysis is the tidy data set.       
 
