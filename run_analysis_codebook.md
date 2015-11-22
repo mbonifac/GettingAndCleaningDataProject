@@ -1,5 +1,7 @@
 ## run_analysis.R Codebook
 
+(This codebook may be easier to read in raw mode.)
+
 This codebook describes the four columns that comprise the output when run_analysis is run.  
 
 While this function was written for the purpose of creating tidy data from the Smartphone Dataset
@@ -11,6 +13,8 @@ subject - ID number of subject who was measured
 activity - physical action subject performed
 variable - measurement for which the mean value was computed
 mean - average value of all measurements of a given variable for a specific action for a specific subject
+
+# Variables in the Smartphone Dataset
 
 In the context of the Smartphone Dataset, the following variables are presented in tidy_set:
 
@@ -105,7 +109,8 @@ are also included.  Please review the features_info.txt file of the Smartphone D
 			fBodyBodyGyroJerkMag-std()
 			fBodyBodyGyroJerkMag-meanFreq()
 
-	
+mean - as the Smartphone Dataset contained normalized data, the units for the mean value (which is essentially the mean of all instances
+for a given activity), will be dimensionless.
 
 
   
