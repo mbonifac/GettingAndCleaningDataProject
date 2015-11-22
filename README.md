@@ -23,11 +23,11 @@ The output of run_analysis is the tidy data set.
 
 The Smartphone Dataset is as follows:
 
-Human Activity Recognition Using Smartphones Dataset, Version 1.0 
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+    Human Activity Recognition Using Smartphones Dataset, Version 1.0 
+    Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto 
+    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-However, this function may be modified to accommodate other datasets with identical
+However, this run_analysis may be modified to accommodate other datasets with identical
 file structure.
 
 Please see the README.txt file for this Dataset for details of each file.  
