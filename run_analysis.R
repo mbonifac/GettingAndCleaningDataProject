@@ -26,7 +26,7 @@ run_analysis<-function(){
     ## Change column names of test and training data sets so they match.
     colnames(test_set)[2]<-c("activity")
     colnames(train_set)[2]<-c("activity")
-    ## Merge test and training data sets into one data set.  Save this master set as a text file.
+    ## Merge test and training data sets into one data set.
     master_set<-rbind(test_set,train_set)
     ## Create a subset that contains only mean and standard deviation values for each measurement.
     stat_set<-master_set[,grepl("subject", colnames(master_set)) | grepl("activity", colnames(master_set)) | grepl("mean()", colnames(master_set)) | grepl("std()", colnames(master_set))]
